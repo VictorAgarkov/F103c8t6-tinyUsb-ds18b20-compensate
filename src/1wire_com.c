@@ -15,15 +15,15 @@ volatile enum e_Wire1_States    g_W1_State     = Wire1State_Off;
 volatile enum e_Wire1_InitState g_1W_InitState = Wire1_InitState_NoDevice;
 
 uint8_t g_Wire1_Buff[10];
-int g_Wire1_StrongLast0Pulse = 0;   // максимально удлинить последний передаваемый 0 (перед запуском измерения температуры 0x44)
+int g_Wire1_StrongLast0Pulse = 0;   // РјР°РєСЃРёРјР°Р»СЊРЅРѕ СѓРґР»РёРЅРёС‚СЊ РїРѕСЃР»РµРґРЅРёР№ РїРµСЂРµРґР°РІР°РµРјС‹Р№ 0 (РїРµСЂРµРґ Р·Р°РїСѓСЃРєРѕРј РёР·РјРµСЂРµРЅРёСЏ С‚РµРјРїРµСЂР°С‚СѓСЂС‹ 0x44)
 
 
 
 //--------------------------------------------------------------------------------------------
 bool wire1_search(bool first)
 {
-	// пытаемся найти все устройства на шине 1-wire
-	// алгоритм взят из http://www.sal.wisc.edu/pfis/docs/rss-nir/archive/public/Product%20Manuals/maxim-ic/AN187.pdf
+	// РїС‹С‚Р°РµРјСЃСЏ РЅР°Р№С‚Рё РІСЃРµ СѓСЃС‚СЂРѕР№СЃС‚РІР° РЅР° С€РёРЅРµ 1-wire
+	// Р°Р»РіРѕСЂРёС‚Рј РІР·СЏС‚ РёР· http://www.sal.wisc.edu/pfis/docs/rss-nir/archive/public/Product%20Manuals/maxim-ic/AN187.pdf
 
 
 	int id_bit_number;
@@ -60,8 +60,8 @@ bool wire1_search(bool first)
 		}
 
 		// issue the search command
-		wire1_init_buff_clr(0xF0);  // отправляем команду Search Rom
-		wire1_transact(8);   //отправляем команду
+		wire1_init_buff_clr(0xF0);  // РѕС‚РїСЂР°РІР»СЏРµРј РєРѕРјР°РЅРґСѓ Search Rom
+		wire1_transact(8);   //РѕС‚РїСЂР°РІР»СЏРµРј РєРѕРјР°РЅРґСѓ
 
 		// loop to do the search
 		do
@@ -110,7 +110,7 @@ bool wire1_search(bool first)
 					wire1_ROM_NO[rom_byte_number] &= ~rom_byte_mask;
 
 				// serial number search direction write bit
-				// отправляем бит обратно устройству
+				// РѕС‚РїСЂР°РІР»СЏРµРј Р±РёС‚ РѕР±СЂР°С‚РЅРѕ СѓСЃС‚СЂРѕР№СЃС‚РІСѓ
 				g_Wire1_Buff[0] = search_direction;
 				wire1_transact(1);
 
@@ -164,18 +164,18 @@ void wire1_read_single_address(void)
 //--------------------------------------------------------------------------------------------
 void wire1_init_buff_clr(uint8_t cmd)
 {
-	// инициализируем буфер перед чтением:
-	// в g_Wire1_Buff[0] кладём команду,
-	// остальные 8 байт заливаем FF
+	// РёРЅРёС†РёР°Р»РёР·РёСЂСѓРµРј Р±СѓС„РµСЂ РїРµСЂРµРґ С‡С‚РµРЅРёРµРј:
+	// РІ g_Wire1_Buff[0] РєР»Р°РґС‘Рј РєРѕРјР°РЅРґСѓ,
+	// РѕСЃС‚Р°Р»СЊРЅС‹Рµ 8 Р±Р°Р№С‚ Р·Р°Р»РёРІР°РµРј FF
 	g_Wire1_Buff[0] = cmd;
 	memset((void *)(g_Wire1_Buff + 1), 0xff, NUMOFARRAY(g_Wire1_Buff) - 1);
 }
 //--------------------------------------------------------------------------------------------
 void wire1_init_buff_cpy(uint8_t cmd, uint8_t *src, int byte_num)
 {
-	// инициализируем буфер перед чтением:
-	// в g_Wire1_Buff[0] кладём команду,
-	// в остальные копируем содержимое src длиной byte_num байт
+	// РёРЅРёС†РёР°Р»РёР·РёСЂСѓРµРј Р±СѓС„РµСЂ РїРµСЂРµРґ С‡С‚РµРЅРёРµРј:
+	// РІ g_Wire1_Buff[0] РєР»Р°РґС‘Рј РєРѕРјР°РЅРґСѓ,
+	// РІ РѕСЃС‚Р°Р»СЊРЅС‹Рµ РєРѕРїРёСЂСѓРµРј СЃРѕРґРµСЂР¶РёРјРѕРµ src РґР»РёРЅРѕР№ byte_num Р±Р°Р№С‚
 	g_Wire1_Buff[0] = cmd;
 	int to_copy = min(byte_num, NUMOFARRAY(g_Wire1_Buff) - 1);
 	if(src) memcpy((void *)(g_Wire1_Buff + 1), src, to_copy);

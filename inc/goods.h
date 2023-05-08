@@ -1,7 +1,7 @@
 #ifndef GOODS_H_INCLUDED
 #define GOODS_H_INCLUDED
 
-	// полезные макросы
+	// РїРѕР»РµР·РЅС‹Рµ РјР°РєСЂРѕСЃС‹
 	#define BV(a) (1UL << (a))
 	#define NUMOFARRAY(a)    (sizeof(a) / sizeof(a[0]))
 

@@ -19,8 +19,8 @@ extern "C" {
 
 	void gpio_init(const struct pin_def *pins);
 
-	extern const struct pin_def g_Pins_Cmmn[];    // все пины, кроме SWD
-	extern const struct pin_def g_Pins_1w[];   // пины 1-wire
+	extern const struct pin_def g_Pins_Cmmn[];    // РІСЃРµ РїРёРЅС‹, РєСЂРѕРјРµ SWD
+	extern const struct pin_def g_Pins_1w[];   // РїРёРЅС‹ 1-wire
 
 	#pragma pack(push, 1)
 

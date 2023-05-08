@@ -46,14 +46,14 @@
 
 	enum e_Wire1_InitState
 	{
-		Wire1_InitState_Idle = 0,   // перед инициализацией и сбросом
-		Wire1_InitState_Reset,      // сброс
-		Wire1_InitState_Rise,       // ожидание подъёма линии до 1
-		Wire1_InitState_Wait0,      // ожидание 0 от устройства
-		Wire1_InitState_Wait1,      // ожидание 1 от устройства
-		Wire1_InitState_Done_OK,    // устройство обнаружено
-		Wire1_InitState_NoDevice,   // устройство не обнаоужено (тайм-аут)
-		Wire1_InitState_ShortGnd    // линия закорочена на землю
+		Wire1_InitState_Idle = 0,   // РїРµСЂРµРґ РёРЅРёС†РёР°Р»РёР·Р°С†РёРµР№ Рё СЃР±СЂРѕСЃРѕРј
+		Wire1_InitState_Reset,      // СЃР±СЂРѕСЃ
+		Wire1_InitState_Rise,       // РѕР¶РёРґР°РЅРёРµ РїРѕРґСЉС‘РјР° Р»РёРЅРёРё РґРѕ 1
+		Wire1_InitState_Wait0,      // РѕР¶РёРґР°РЅРёРµ 0 РѕС‚ СѓСЃС‚СЂРѕР№СЃС‚РІР°
+		Wire1_InitState_Wait1,      // РѕР¶РёРґР°РЅРёРµ 1 РѕС‚ СѓСЃС‚СЂРѕР№СЃС‚РІР°
+		Wire1_InitState_Done_OK,    // СѓСЃС‚СЂРѕР№СЃС‚РІРѕ РѕР±РЅР°СЂСѓР¶РµРЅРѕ
+		Wire1_InitState_NoDevice,   // СѓСЃС‚СЂРѕР№СЃС‚РІРѕ РЅРµ РѕР±РЅР°РѕСѓР¶РµРЅРѕ (С‚Р°Р№Рј-Р°СѓС‚)
+		Wire1_InitState_ShortGnd    // Р»РёРЅРёСЏ Р·Р°РєРѕСЂРѕС‡РµРЅР° РЅР° Р·РµРјР»СЋ
 	};
 
 	enum e_Wire1_Direction
@@ -68,8 +68,8 @@
 
 //	extern volatile uint32_t g_Wire1_Ready;
 	extern uint8_t g_Wire1_Buff[10];
-	extern int g_Wire1_StrongLast0Pulse;  // последний импульс будет "0" и формироваться будет не UART-ом, а как 0 на GPIO, а после будет 1 от GPIO
-	extern uint8_t wire1_ROM_NO[8];   // здесь находится номер очередного устройства на 1-wire после поиска wire1_search()
+	extern int g_Wire1_StrongLast0Pulse;  // РїРѕСЃР»РµРґРЅРёР№ РёРјРїСѓР»СЊСЃ Р±СѓРґРµС‚ "0" Рё С„РѕСЂРјРёСЂРѕРІР°С‚СЊСЃСЏ Р±СѓРґРµС‚ РЅРµ UART-РѕРј, Р° РєР°Рє 0 РЅР° GPIO, Р° РїРѕСЃР»Рµ Р±СѓРґРµС‚ 1 РѕС‚ GPIO
+	extern uint8_t wire1_ROM_NO[8];   // Р·РґРµСЃСЊ РЅР°С…РѕРґРёС‚СЃСЏ РЅРѕРјРµСЂ РѕС‡РµСЂРµРґРЅРѕРіРѕ СѓСЃС‚СЂРѕР№СЃС‚РІР° РЅР° 1-wire РїРѕСЃР»Рµ РїРѕРёСЃРєР° wire1_search()
 
 
 	int  wire1_search_all(void);

@@ -7,7 +7,7 @@
 #include "1wire_family.h"
 #include "goods.h"
 
-//#define W1_FAMILY_SLOW_SEARCH // медленный поиск перебором массива
+//#define W1_FAMILY_SLOW_SEARCH // РјРµРґР»РµРЅРЅС‹Р№ РїРѕРёСЃРє РїРµСЂРµР±РѕСЂРѕРј РјР°СЃСЃРёРІР°
 
 const struct wire1_family g_1wireFamily[] =
 {
@@ -92,25 +92,25 @@ const struct wire1_family * family_find_by_hex(uint8_t hex)
 {
 
 	#ifdef W1_FAMILY_SLOW_SEARCH
-		// медленный поиск - перебираем весь массив, пока не найдём
-		// экономит немного (64 или 20) байт памяти программ
+		// РјРµРґР»РµРЅРЅС‹Р№ РїРѕРёСЃРє - РїРµСЂРµР±РёСЂР°РµРј РІРµСЃСЊ РјР°СЃСЃРёРІ, РїРѕРєР° РЅРµ РЅР°Р№РґС‘Рј
+		// СЌРєРѕРЅРѕРјРёС‚ РЅРµРјРЅРѕРіРѕ (64 РёР»Рё 20) Р±Р°Р№С‚ РїР°РјСЏС‚Рё РїСЂРѕРіСЂР°РјРј
 		for(int i = 0; i < NUMOFARRAY(g_1wireFamily); i++)
 		{
 			if(g_1wireFamily[i].hex == hex) return g_1wireFamily + i;
 		}
 	#else  // not W1_FAMILY_SLOW_SEARCH
-		// быстрый поиск - ищем методом половинного
-		// деления по отсортированному списку,
-		// за 8 итераций максимум
-		int len = (NUMOFARRAY(g_1wireFamily) > 128) ? 256 : 128;  // до ближайшего 2^n, не меньше размера списка
+		// Р±С‹СЃС‚СЂС‹Р№ РїРѕРёСЃРє - РёС‰РµРј РјРµС‚РѕРґРѕРј РїРѕР»РѕРІРёРЅРЅРѕРіРѕ
+		// РґРµР»РµРЅРёСЏ РїРѕ РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅРѕРјСѓ СЃРїРёСЃРєСѓ,
+		// Р·Р° 8 РёС‚РµСЂР°С†РёР№ РјР°РєСЃРёРјСѓРј
+		int len = (NUMOFARRAY(g_1wireFamily) > 128) ? 256 : 128;  // РґРѕ Р±Р»РёР¶Р°Р№С€РµРіРѕ 2^n, РЅРµ РјРµРЅСЊС€Рµ СЂР°Р·РјРµСЂР° СЃРїРёСЃРєР°
 		int pos = len / 2;
 
 		for(; len; len >>= 1)
 		{
-			int d = len / 4;  // на сколько будем прыгать от текущей позиции
+			int d = len / 4;  // РЅР° СЃРєРѕР»СЊРєРѕ Р±СѓРґРµРј РїСЂС‹РіР°С‚СЊ РѕС‚ С‚РµРєСѓС‰РµР№ РїРѕР·РёС†РёРё
 			if(!d) d = 1;
 
-			if(pos >= NUMOFARRAY(g_1wireFamily)) // за пределами списка
+			if(pos >= NUMOFARRAY(g_1wireFamily)) // Р·Р° РїСЂРµРґРµР»Р°РјРё СЃРїРёСЃРєР°
 			{
 				pos -= d;
 				continue;
@@ -119,11 +119,11 @@ const struct wire1_family * family_find_by_hex(uint8_t hex)
 			const struct wire1_family *f = g_1wireFamily + pos;
 			if(f->hex == hex)
 			{
-				return f;  // нашли
+				return f;  // РЅР°С€Р»Рё
 			}
 			else
 			{
-				pos += (f->hex < hex) ? +d : -d; // прыгаем
+				pos += (f->hex < hex) ? +d : -d; // РїСЂС‹РіР°РµРј
 			}
 		}
 	#endif // W1_FAMILY_SLOW_SEARCH
