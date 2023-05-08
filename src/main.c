@@ -522,12 +522,12 @@ void send_1wire_address(uint8_t *addr_ROM)
 	wire1_transact(9*8);                    // send cmd & address
 }
 //-----------------------------------------------------------------------------------------------------------------+
-void ds18b20_read_scratchpad(uint8_t *addr_ROM)
+void ds18b20_read_scratchpad(uint8_t *addr)
 {
 	wire1_init();                  // сброс
-	send_1wire_address(addr_ROM);  // адрес устройства
+	send_1wire_address(addr);  // адрес устройства
 	wire1_init_buff_clr(0xBE);     // Read Scratchpad [BEh]
-	wire1_transact(80);            // write command & read all data
+	wire1_transact(80);            // send command & read all data
 	//return
 }
 //-----------------------------------------------------------------------------------------------------------------+
@@ -580,6 +580,70 @@ void ds18b20_start_temp_measure(void)
 
 }
 //-----------------------------------------------------------------------------------------------------------------+
+void ds18b20_write_EEPROM(uint8_t *addr, uint8_t *data)
+{
+	// data - 3 байта для записи
+
+	// переписываем в Scratchpad
+	wire1_init();                                 // reset
+	send_1wire_address(addr);                     // device address
+	wire1_init_buff_cpy(0x4e, data, 3);           // Write Scratchpad [4Eh]
+	wire1_transact(32);
+
+	// сохраняем значение Scratchpad в EEPROM
+	wire1_init();                                 // reset
+	send_1wire_address(addr);                     // device address
+	g_Wire1_Buff[0] = 0x48;                       // Copy Scratchpad [48h] command
+	g_Wire1_StrongLast0Pulse = 1;                 // need strong parasite power
+	wire1_transact(8);                            // send
+	delay_ms(50);                                 // delay
+	GPIO_OUT_VAL(PIN_1W_PWR, !PIN_1W_PWR_ACTIVE); // strong power off
+
+
+}
+//-----------------------------------------------------------------------------------------------------------------+
+bool ds18b20_verify_EEPROM(uint8_t *addr, uint8_t *data)
+{
+	// проверка
+
+	// просим переписать из EEPROM в  Scratchpad
+	wire1_init();                                 // reset
+	send_1wire_address(addr);                     // device address
+	g_Wire1_Buff[0] = 0xB8;                       // Recall E2 [B8h] command
+	wire1_transact(8);                            // send
+
+	// читаем
+	ds18b20_read_scratchpad(addr);
+
+	uint8_t *rdd = g_Wire1_Buff + 3;
+
+	return rdd[0] == data[0] && rdd[1] == data[1] && rdd[2] == data[2];
+
+}
+//-----------------------------------------------------------------------------------------------------------------+
+void ds18b20_default_EEPROM()
+{
+	for(int i = 0; i < g_w1_Cnt; i++)
+	{
+		struct ds18b20_data *devdata = g_w1_devices + i;
+		uint8_t * addr = devdata->addr.ui8;
+		if(addr[0] == 0x28)
+		{
+			print_1_dev(i, W1_LIST_IDX);
+
+			uint8_t d[4];
+			d[0] = 0x55;                       // default value of tH
+			d[1] = 0x00;                       // default value of tL
+			d[2] = 0x7f;                       // default value of config register
+
+			ds18b20_write_EEPROM(addr, d);
+
+			if(ds18b20_verify_EEPROM(addr, d)) rb_adds(&g_HostTx, " OK: defaults stored in EEPROM[0].\n");
+			else                               rb_adds(&g_HostTx, " Verification ERROR\n");
+		}
+	}
+}
+//-----------------------------------------------------------------------------------------------------------------+
 void ds18b20_compensate_all()
 {
 	// Переписываем младший байт температуры в первый байт EEPROM, а
@@ -616,24 +680,16 @@ void ds18b20_compensate_all()
 			}
 
 			// переписываем младший байт температуры в Scratchpad
-			wire1_init();                                     // reset
-			send_1wire_address(addr);                         // device address
-			g_Wire1_Buff[0] = 0x4e;                           // Write Scratchpad [4Eh]
-			g_Wire1_Buff[1] = devdata->pad.data[0];           // LSB of temp
-			g_Wire1_Buff[2] = devdata->pad.data[0] ^ 0xff;    // inversed LSB of temp
-			g_Wire1_Buff[3] = devdata->pad.data[4];           // old value (config)
-			wire1_transact(32);
+			uint8_t d[4];
+			d[0] = devdata->pad.data[0];           // LSB of temp
+			d[1] = devdata->pad.data[0] ^ 0xff;    // inversed LSB of temp
+			d[2] = devdata->pad.data[4];           // old value (config)
 
-			// сохраняем значение Scratchpad в EEPROM
-			wire1_init();                                 // reset
-			send_1wire_address(addr);                     // device address
-			g_Wire1_Buff[0] = 0x48;                       // Copy Scratchpad [48h] command
-			g_Wire1_StrongLast0Pulse = 1;                 // need strong parasite power
-			wire1_transact(8);                            // send
-			delay_ms(50);                                 // delay
-			GPIO_OUT_VAL(PIN_1W_PWR, !PIN_1W_PWR_ACTIVE); // strong power off
+			ds18b20_write_EEPROM(addr, d);
 
-			rb_adds(&g_HostTx, " OK: LSB of temp stored in EEPROM[0].\n");
+			if(ds18b20_verify_EEPROM(addr, d)) rb_adds(&g_HostTx, " OK: LSB of temp stored in EEPROM[0].\n");
+			else                               rb_adds(&g_HostTx, " Verification ERROR\n");
+
 		}
 	}
 }
@@ -671,6 +727,7 @@ void rx_cmd_buff(char *src, int src_len, int host_idx)
 	"r - read DS18B20 scratchpad\n"
 	"t - print measured temp\n"
 	"c - compensate (write LSB of temp into EEPROM)\n"
+	"d - write default values to EEPROM\n"
 	"o - deinit (power off)\n";
 
 	for(int i = 0; i < src_len; i++)
@@ -780,6 +837,10 @@ void rx_cmd_buff(char *src, int src_len, int host_idx)
 		{
 			//print_char_map(' ', 255);
 			ds18b20_compensate_all();
+		}
+		else if(ch == 'd')  // [d]efault - write default values to EEPROM
+		{
+			ds18b20_default_EEPROM();
 		}
 		else if(ch == 'o')  // [o]ff - power off
 		{
