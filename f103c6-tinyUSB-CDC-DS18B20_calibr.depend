@@ -1,0 +1,1313 @@
+# depslib dependency file v1.0
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal.c
+	"stm32f1xx_hal.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"stm32f1xx_hal_can_legacy.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+	"stm32f1xx_hal_mmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"stm32_hal_legacy.h"
+	<stddef.h>
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\cmsis\core_cm3.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\cmsis\cmsis_version.h
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\cmsis\cmsis_gcc.h
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\cmsis\mpu_armv7.h
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\system_stm32f1xx.h
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32_hal_legacy.h
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_exti.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_eth.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_can.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_cec.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_adc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_adc_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_adc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_crc.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_dac.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dac_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_dac_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_sram.h
+	"stm32f1xx_ll_fsmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_nor.h
+	"stm32f1xx_ll_fsmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_i2c.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_i2s.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_iwdg.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_rtc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rtc_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_rtc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_pccard.h
+	"stm32f1xx_ll_fsmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_sd.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_nand.h
+	"stm32f1xx_ll_fsmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_usart.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_irda.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_smartcard.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_wwdg.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_hcd.h
+	"stm32f1xx_ll_usb.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_mmc.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_adc.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_adc_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_can.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_cec.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_cortex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_crc.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_dac.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_dac_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_dma.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_eth.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_exti.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_flash.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_flash_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_gpio.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_gpio_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_hcd.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_i2c.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_i2s.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_irda.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_iwdg.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_mmc.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_nand.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_nor.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_pccard.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_pcd.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_pcd_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_pwr.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_rcc.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_rcc_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_rtc.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_rtc_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_sd.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_smartcard.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_spi.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_sram.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_tim.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_tim_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_uart.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_usart.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_wwdg.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\startup_stm32f103xb.s
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1675784658 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\usb_descriptors.c
+	"tusb.h"
+
+1672665908 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\tusb.h
+	"common/tusb_common.h"
+	"osal/osal.h"
+	"common/tusb_fifo.h"
+	"host/usbh.h"
+	"class/hid/hid_host.h"
+	"class/msc/msc_host.h"
+	"class/cdc/cdc_host.h"
+	"class/vendor/vendor_host.h"
+	"device/usbd.h"
+	"class/hid/hid_device.h"
+	"class/cdc/cdc_device.h"
+	"class/msc/msc_device.h"
+	"class/audio/audio_device.h"
+	"class/video/video_device.h"
+	"class/midi/midi_device.h"
+	"class/vendor/vendor_device.h"
+	"class/usbtmc/usbtmc_device.h"
+	"class/dfu/dfu_rt_device.h"
+	"class/dfu/dfu_device.h"
+	"class/net/net_device.h"
+	"class/bth/bth_device.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_common.h
+	<stdbool.h>
+	<stdint.h>
+	<stddef.h>
+	<string.h>
+	<stdio.h>
+	"tusb_option.h"
+	"tusb_compiler.h"
+	"tusb_verify.h"
+	"tusb_types.h"
+	"tusb_debug.h"
+	"tusb_timeout.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\tusb_option.h
+	"common/tusb_compiler.h"
+	"tusb_config.h"
+	"common/tusb_mcu.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_compiler.h
+	<intrinsics.h>
+
+1675848254 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\tusb_config.h
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_mcu.h
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_verify.h
+	<stdbool.h>
+	<stdint.h>
+	"tusb_option.h"
+	"tusb_compiler.h"
+	<stdio.h>
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_types.h
+	<stdbool.h>
+	<stdint.h>
+	"tusb_compiler.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_debug.h
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_timeout.h
+	<stdbool.h>
+	<stdint.h>
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal.h
+	"common/tusb_common.h"
+	"osal_none.h"
+	"osal_freertos.h"
+	"osal_mynewt.h"
+	"osal_pico.h"
+	"osal_rtthread.h"
+	"osal_rtx4.h"
+	"tusb_os_custom.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_none.h
+	"common/tusb_fifo.h"
+
+1673879982 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_fifo.h
+	"common/tusb_common.h"
+	"osal/osal.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_freertos.h
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_mynewt.h
+	"os/os.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_pico.h
+	"pico/time.h"
+	"pico/sem.h"
+	"pico/mutex.h"
+	"pico/critical_section.h"
+	"common/tusb_fifo.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_rtthread.h
+	"rtthread.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_rtx4.h
+	<rtl.h>
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_host.h
+	"cdc.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc.h
+	"common/tusb_common.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\device\usbd.h
+	"common/tusb_common.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_device.h
+	"cdc.h"
+
+1676188446 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\hw\family.c
+	"stm32f1xx_hal.h"
+	"bsp/board.h"
+	"usbd.h"
+	<stdbool.h>
+
+1676187358 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\hw\bsp\board.h
+
+1683476030 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_device.c
+	"tusb_option.h"
+	"device/usbd.h"
+	"device/usbd_pvt.h"
+	"cdc_device.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\device\usbd_pvt.h
+	"osal/osal.h"
+	"common/tusb_fifo.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_host.c
+	"tusb_option.h"
+	"host/usbh.h"
+	"host/usbh_classdriver.h"
+	"cdc_host.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_rndis_host.c
+	"tusb_option.h"
+	"common/tusb_common.h"
+	"cdc_host.h"
+	"cdc_rndis_host.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_rndis_host.h
+	"common/tusb_common.h"
+	"host/usbh.h"
+	"cdc_rndis.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_rndis.h
+	"cdc.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_fifo.c
+	"osal/osal.h"
+	"tusb_fifo.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\device\usbd.c
+	"tusb_option.h"
+	"device/dcd.h"
+	"tusb.h"
+	"common/tusb_private.h"
+	"device/usbd.h"
+	"device/usbd_pvt.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\device\dcd.h
+	"common/tusb_common.h"
+	"osal/osal.h"
+	"common/tusb_fifo.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_private.h
+
+1683475220 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\device\usbd_control.c
+	"tusb_option.h"
+	"dcd.h"
+	"tusb.h"
+	"device/usbd_pvt.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\portable\st\stm32_fsdev\dcd_stm32_fsdev.c
+	"tusb_option.h"
+	"device/dcd.h"
+	"portable/st/stm32_fsdev/dcd_stm32_fsdev_pvt_st.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\portable\st\stm32_fsdev\dcd_stm32_fsdev_pvt_st.h
+	"stm32f0xx.h"
+	"stm32f1xx.h"
+	"stm32f3xx.h"
+	"stm32f3xx.h"
+	"stm32l0xx.h"
+	"stm32l1xx.h"
+	"stm32g4xx.h"
+	"stm32wbxx.h"
+	"stm32l4xx.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\portable\st\synopsys\dcd_synopsys.c
+	"tusb_option.h"
+	"stm32f1xx.h"
+	"stm32f2xx.h"
+	"stm32f4xx.h"
+	"stm32h7xx.h"
+	"stm32f7xx.h"
+	"stm32l4xx.h"
+	"synopsys_common.h"
+	"device/dcd.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\portable\st\synopsys\synopsys_common.h
+	"stdint.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\tinyusb\src\tusb.c
+	"tusb_option.h"
+	"tusb.h"
+	"common/tusb_private.h"
+	"device/usbd_pvt.h"
+	"host/usbh_classdriver.h"
+	<ctype.h>
+
+1683553096 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"main.h"
+	"tusb.h"
+	"bsp/board.h"
+	"1wire_com.h"
+	"goods.h"
+	"ring_buff.h"
+	"1wire_family.h"
+
+1683548467 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\main.h
+	"stm32f1xx_hal.h"
+	"gpio_F1xx.h"
+	"int_union.h"
+
+1676297482 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\gpio_f1xx.h
+	"stm32f1xx.h"
+
+1683375295 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\1wire_uart.c
+	<string.h>
+	<stdbool.h>
+	"1wire_uart.h"
+	"main.h"
+	"goods.h"
+	"gpio_F1xx.h"
+
+1683372419 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\1wire_uart.h
+	"1wire_com.h"
+
+1668671868 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\goods.h
+
+1676294986 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\1wite_tim.c
+	<string.h>
+	<stdbool.h>
+	"1wire_uart.h"
+	"main.h"
+	"goods.h"
+	"gpio_F1xx.h"
+
+1676288056 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\1wire_cmmn.h
+	<stdint.h>
+	<stdbool.h>
+	"1wire_uart.h"
+	"1wire_tim.h"
+
+1676288056 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\1w_cmmn.c
+	"1wire_cmmn.h"
+	"goods.h"
+	"string.h"
+	<stm32f1xx.h>
+
+1676295298 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\1wire_tim.h
+	"1wire_com.h"
+
+1658573016 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\stm32f103x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1683543612 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\1wire_com.h
+	<stdint.h>
+	<stdbool.h>
+	"1wire_uart.h"
+	"1wire_gpio.h"
+
+1683545661 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\1wire_com.c
+	"1wire_com.h"
+	"goods.h"
+	"string.h"
+	<stm32f1xx.h>
+
+1676300953 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\1wire_tim.c
+	<string.h>
+	<stdbool.h>
+	"1wire_uart.h"
+	"main.h"
+	"goods.h"
+	"gpio_F1xx.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal.c
+	"stm32f1xx_hal.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"stm32f1xx_hal_can_legacy.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+	"stm32f1xx_hal_mmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"stm32_hal_legacy.h"
+	<stddef.h>
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1658573016 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\stm32f103x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\cmsis\core_cm3.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\cmsis\cmsis_version.h
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\cmsis\cmsis_gcc.h
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\cmsis\mpu_armv7.h
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\system_stm32f1xx.h
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32_hal_legacy.h
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_exti.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_eth.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_can.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_cec.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_adc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_adc_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_adc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_crc.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_dac.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dac_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_dac_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_sram.h
+	"stm32f1xx_ll_fsmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_nor.h
+	"stm32f1xx_ll_fsmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_i2c.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_i2s.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_iwdg.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_rtc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rtc_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_rtc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_pccard.h
+	"stm32f1xx_ll_fsmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_sd.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_nand.h
+	"stm32f1xx_ll_fsmc.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_usart.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_irda.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_smartcard.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_wwdg.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_hcd.h
+	"stm32f1xx_ll_usb.h"
+
+1672662604 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\inc\stm32f1xx_hal_mmc.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_adc.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_adc_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_can.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_cec.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_cortex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_crc.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_dac.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_dac_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_dma.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_eth.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_exti.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_flash.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_flash_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_gpio.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_gpio_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_hcd.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_i2c.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_i2s.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_irda.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_iwdg.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_mmc.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_nand.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_nor.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_pccard.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_pcd.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_pcd_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_pwr.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_rcc.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_rcc_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_rtc.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_rtc_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_sd.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_smartcard.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_spi.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_sram.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_tim.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_tim_ex.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_uart.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_usart.c
+	"stm32f1xx_hal.h"
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\hal\src\stm32f1xx_hal_wwdg.c
+	"stm32f1xx_hal.h"
+
+1683370006 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\src\1wire_com.c
+	"1wire_com.h"
+	"goods.h"
+	"string.h"
+	<stm32f1xx.h>
+
+1683372281 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\1wire_com.h
+	<stdint.h>
+	<stdbool.h>
+	"1wire_uart.h"
+	"1wire_tim.h"
+	"1wire_gpio.h"
+
+1683372419 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\1wire_uart.h
+	"1wire_com.h"
+
+1676295298 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\1wire_tim.h
+	"1wire_com.h"
+
+1668671868 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\goods.h
+
+1683372255 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\src\1wire_uart.c
+	<string.h>
+	<stdbool.h>
+	"1wire_uart.h"
+	"main.h"
+	"goods.h"
+	"gpio_F1xx.h"
+
+1676297128 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\main.h
+	"stm32f1xx_hal.h"
+	"gpio_F1xx.h"
+
+1676297482 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\gpio_f1xx.h
+	"stm32f1xx.h"
+
+1683373331 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\src\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"main.h"
+	"tusb.h"
+	"bsp/board.h"
+	"1wire_com.h"
+	"goods.h"
+
+1672665908 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\tusb.h
+	"common/tusb_common.h"
+	"osal/osal.h"
+	"common/tusb_fifo.h"
+	"host/usbh.h"
+	"class/hid/hid_host.h"
+	"class/msc/msc_host.h"
+	"class/cdc/cdc_host.h"
+	"class/vendor/vendor_host.h"
+	"device/usbd.h"
+	"class/hid/hid_device.h"
+	"class/cdc/cdc_device.h"
+	"class/msc/msc_device.h"
+	"class/audio/audio_device.h"
+	"class/video/video_device.h"
+	"class/midi/midi_device.h"
+	"class/vendor/vendor_device.h"
+	"class/usbtmc/usbtmc_device.h"
+	"class/dfu/dfu_rt_device.h"
+	"class/dfu/dfu_device.h"
+	"class/net/net_device.h"
+	"class/bth/bth_device.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_common.h
+	<stdbool.h>
+	<stdint.h>
+	<stddef.h>
+	<string.h>
+	<stdio.h>
+	"tusb_option.h"
+	"tusb_compiler.h"
+	"tusb_verify.h"
+	"tusb_types.h"
+	"tusb_debug.h"
+	"tusb_timeout.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\tusb_option.h
+	"common/tusb_compiler.h"
+	"tusb_config.h"
+	"common/tusb_mcu.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_compiler.h
+	<intrinsics.h>
+
+1675848254 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\tusb_config.h
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_mcu.h
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_verify.h
+	<stdbool.h>
+	<stdint.h>
+	"tusb_option.h"
+	"tusb_compiler.h"
+	<stdio.h>
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_types.h
+	<stdbool.h>
+	<stdint.h>
+	"tusb_compiler.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_debug.h
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_timeout.h
+	<stdbool.h>
+	<stdint.h>
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal.h
+	"common/tusb_common.h"
+	"osal_none.h"
+	"osal_freertos.h"
+	"osal_mynewt.h"
+	"osal_pico.h"
+	"osal_rtthread.h"
+	"osal_rtx4.h"
+	"tusb_os_custom.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_none.h
+	"common/tusb_fifo.h"
+
+1673879982 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_fifo.h
+	"common/tusb_common.h"
+	"osal/osal.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_freertos.h
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_mynewt.h
+	"os/os.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_pico.h
+	"pico/time.h"
+	"pico/sem.h"
+	"pico/mutex.h"
+	"pico/critical_section.h"
+	"common/tusb_fifo.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_rtthread.h
+	"rtthread.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\osal\osal_rtx4.h
+	<rtl.h>
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_host.h
+	"cdc.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc.h
+	"common/tusb_common.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\device\usbd.h
+	"common/tusb_common.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_device.h
+	"cdc.h"
+
+1676187358 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\hw\bsp\board.h
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\src\startup_stm32f103xb.s
+
+1672662604 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1675784658 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\src\usb_descriptors.c
+	"tusb.h"
+
+1676188446 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\hw\family.c
+	"stm32f1xx_hal.h"
+	"bsp/board.h"
+	"usbd.h"
+	<stdbool.h>
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_device.c
+	"tusb_option.h"
+	"device/usbd.h"
+	"device/usbd_pvt.h"
+	"cdc_device.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\device\usbd_pvt.h
+	"osal/osal.h"
+	"common/tusb_fifo.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_host.c
+	"tusb_option.h"
+	"host/usbh.h"
+	"host/usbh_classdriver.h"
+	"cdc_host.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_rndis_host.c
+	"tusb_option.h"
+	"common/tusb_common.h"
+	"cdc_host.h"
+	"cdc_rndis_host.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_rndis_host.h
+	"common/tusb_common.h"
+	"host/usbh.h"
+	"cdc_rndis.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\class\cdc\cdc_rndis.h
+	"cdc.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_fifo.c
+	"osal/osal.h"
+	"tusb_fifo.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\device\usbd.c
+	"tusb_option.h"
+	"device/dcd.h"
+	"tusb.h"
+	"common/tusb_private.h"
+	"device/usbd.h"
+	"device/usbd_pvt.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\device\dcd.h
+	"common/tusb_common.h"
+	"osal/osal.h"
+	"common/tusb_fifo.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\common\tusb_private.h
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\device\usbd_control.c
+	"tusb_option.h"
+	"dcd.h"
+	"tusb.h"
+	"device/usbd_pvt.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\portable\st\stm32_fsdev\dcd_stm32_fsdev.c
+	"tusb_option.h"
+	"device/dcd.h"
+	"portable/st/stm32_fsdev/dcd_stm32_fsdev_pvt_st.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\portable\st\stm32_fsdev\dcd_stm32_fsdev_pvt_st.h
+	"stm32f0xx.h"
+	"stm32f1xx.h"
+	"stm32f3xx.h"
+	"stm32f3xx.h"
+	"stm32l0xx.h"
+	"stm32l1xx.h"
+	"stm32g4xx.h"
+	"stm32wbxx.h"
+	"stm32l4xx.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\portable\st\synopsys\dcd_synopsys.c
+	"tusb_option.h"
+	"stm32f1xx.h"
+	"stm32f2xx.h"
+	"stm32f4xx.h"
+	"stm32h7xx.h"
+	"stm32f7xx.h"
+	"stm32l4xx.h"
+	"synopsys_common.h"
+	"device/dcd.h"
+
+1672149338 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\portable\st\synopsys\synopsys_common.h
+	"stdint.h"
+
+1672149338 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\tinyusb\src\tusb.c
+	"tusb_option.h"
+	"tusb.h"
+	"common/tusb_private.h"
+	"device/usbd_pvt.h"
+	"host/usbh_classdriver.h"
+	<ctype.h>
+
+1683369856 c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\1wire_gpio.h
+	"1wire_com.h"
+
+1683373623 source:c:\users\vic\documents\work\arm\hlam\f103c8-tinyusb-cdc-ds18b20_calibr\inc\1wire_gpio.c
+	"1wire_gpio.h"
+	"goods.h"
+	"main.h"
+	"gpio_F1xx.h"
+
+1683458836 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\1wire_gpio.c
+	"1wire_gpio.h"
+	"goods.h"
+	"main.h"
+	"gpio_F1xx.h"
+
+1683536999 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\1wire_gpio.h
+	"1wire_com.h"
+
+1683468820 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\1wire_gpio.c
+	"1wire_gpio.h"
+	"goods.h"
+	"main.h"
+	"gpio_F1xx.h"
+
+1674033417 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\ring_buff.c
+	"ring_buff.h"
+	"goods.h"
+	<string.h>
+
+1674033418 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\ring_buff.h
+	<stdlib.h>
+
+1683467997 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\int_union.h
+	<stdint.h>
+
+1683473221 source:c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\src\1wire_family.c
+	"1wire_family.h"
+	"goods.h"
+
+1683467867 c:\users\vic\documents\work\arm\hlam\f103c6-tinyusb-cdc-ds18b20_calibr\inc\1wire_family.h
+	<stdint.h>
+

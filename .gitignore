@@ -1,0 +1,9 @@
+*.o
+*.d
+*.map
+*.elf
+*.cmd
+*.bat
+*.zip
+obj/
+1-cppcheck-build-dir/
